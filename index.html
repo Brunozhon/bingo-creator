@@ -13,14 +13,14 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js" integrity="sha384-/Yv7JJr5xq1ZjrW3t2shmoSS2rG5HQjNbVmjoTs3/FpXP48eHG7WrwLJt//y5g+e" crossorigin="anonymous"></script>
     <h1>BINGO creator</h1>
     <div id="app">
-      <input :value="intro1">
-      <input :value="intro2">
-      <input :value="letter1">
-      <input :value="letter2">
-      <input :value="letter3">
-      <input :value="letter4">
-      <input :value="letter5">
-      <input :value="conc">
+      <input v-model="intro1">
+      <input v-model="intro2">
+      <input v-model="letter1">
+      <input v-model="letter2">
+      <input v-model="letter3">
+      <input v-model="letter4">
+      <input v-model="letter5">
+      <input v-model="conc">
       <p>{{ intro1 }}</p>
       <p>{{ intro2 }}</p>
       <p>{{ letter1 }}-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}</p>
