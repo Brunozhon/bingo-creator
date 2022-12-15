@@ -33,10 +33,39 @@
       *clap*-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
       *clap*-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
       {{ conc }}</p>
+      <p>{{ intro1 }}<br>
+      {{ intro2 }}<br>
+      *clap*-*clap*-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      *clap*-*clap*-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      *clap*-*clap*-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      {{ conc }}</p>
+      <p>{{ intro1 }}<br>
+      {{ intro2 }}<br>
+      *clap*-*clap*-*clap*-{{ letter4 }}-{{ letter5 }}<br>
+      *clap*-*clap*-*clap*-{{ letter4 }}-{{ letter5 }}<br>
+      *clap*-*clap*-*clap*-{{ letter4 }}-{{ letter5 }}<br>
+      {{ conc }}</p>
+      <p>{{ intro1 }}<br>
+      {{ intro2 }}<br>
+      *clap*-*clap*-*clap*-*clap*-{{ letter5 }}<br>
+      *clap*-*clap*-*clap*-*clap*-{{ letter5 }}<br>
+      *clap*-*clap*-*clap*-*clap*-{{ letter5 }}<br>
+      {{ conc }}</p>
+      <p>{{ intro1 }}<br>
+      {{ intro2 }}<br>
+      *clap*-*clap*-*clap*-*clap*-*clap*<br>
+      *clap*-*clap*-*clap*-*clap*-*clap*<br>
+      *clap*-*clap*-*clap*-*clap*-*clap*<br>
+      {{ conc }}</p>
+      <p>{{ intro1 }}<br>
+      {{ intro2 }}<br>
+      {{ letter1 }}-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      {{ letter1 }}-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      {{ letter1 }}-{{ letter2 }}-{{ letter3 }}-{{ letter4 }}-{{ letter5 }}<br>
+      {{ conc }}</p>
     </div>
     <script>
-      const { createApp } = Vue    
-      createApp({
+      Vue.createApp({
         data() {
           return {
             intro1: "There was a farmer on the farm",
